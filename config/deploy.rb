@@ -5,6 +5,7 @@ set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 set :branch, 'master'
 set :user, "deploy"
+set :use_sudo,false
 set :scm_username,"revol-tech"
 role :web, "revol-tech.com.np"                          # Your HTTP server, Apache/etc
 role :app, "revol-tech.com.np"   
