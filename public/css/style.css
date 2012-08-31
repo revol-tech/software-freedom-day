@@ -1,0 +1,22 @@
+.alert-block
+{
+	width: 100%;
+	float:left;
+	text-align: right;
+}
+.alert-block a{
+	float:right;
+	margin:6% 1% 1% 0;
+}
+.alert-block p{
+	float: left;
+	margin:6% 1% 1% 73%;
+}
+.alert-block img{
+	float:left;
+	height:100px;
+}
+.alert-info{
+	width:100%;
+	text-align: center;
+}
